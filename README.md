@@ -1,6 +1,6 @@
 # pairbox
 
-A vagrant setup for pairing. Features things commonly needed to pair on ruby and Go projects.
+A vagrant setup for pairing via tmux. Features things commonly needed to pair on ruby and Go projects.
 
 ## Using
 
