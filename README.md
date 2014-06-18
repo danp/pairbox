@@ -19,3 +19,4 @@ The best way to get together is `vagrant share --ssh --disable-http` and `vagran
 * git config
 * emacs config
 * remove need for vagrant-omnibus plugin
+* shell aliases
