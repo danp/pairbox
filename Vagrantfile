@@ -18,6 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "go"
     chef.add_recipe "nodejs"
     chef.add_recipe "postgresql"
+    chef.add_recipe "redis"
     chef.add_recipe "emacs"
     chef.add_recipe "tmux"
   end
