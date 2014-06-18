@@ -14,6 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "chef_solo" do |chef|
     chef.add_recipe "git"
     chef.add_recipe "mercurial"
+    chef.add_recipe "the_silver_searcher"
     chef.add_recipe "ruby"
     chef.add_recipe "go"
     chef.add_recipe "nodejs"
